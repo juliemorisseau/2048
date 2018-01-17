@@ -1,0 +1,167 @@
+body
+{ 
+  background-color: #fcedb6;
+  font-family: arial;
+}
+
+h1
+{
+  color: #e39729; 
+  font-size:60px;
+  float:left;
+}
+
+.game-container{
+  clear:both;
+}
+.container
+{
+  margin-left: 32%;
+}
+
+#grid
+{
+
+  background-color: #a99b98;
+  border-radius: 5px;
+  width : 500px; 
+  height : 500px;
+
+}
+
+.cell
+{
+
+ background-color: #c3b8b6;
+ border-radius: 5px;
+ width: 105px;
+ height: 105px;
+ float:left;
+ margin-top:15px;
+ margin-left:15px;
+ position:relative;
+ text-align: center;
+ font-size: 50px;
+ font-weight: bold;
+ line-height: 100px;
+ color: white;
+
+}
+
+.score
+{
+  background-color: #e39729;
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 16px;
+  float:left;
+  margin-top: 25px;
+  margin-left: 15px;
+  opacity: 0.8;
+}
+
+.scoreNb{
+  font-size: 25px;
+}
+
+.best
+{
+  background-color: #e39729;
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 16px;
+  float:left;
+  margin-top: 25px;
+  margin-left: 11%;
+  opacity: 0.8;
+}
+
+.newGame{
+  background-color: #e39729;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 7px;
+  font-size: 15px;
+  float:right;
+  margin-top: 7px;
+  margin-right:53%;
+  opacity: 0.8;
+}
+
+.deux
+{
+  background-color: #0097c7;
+}
+.quatre
+{
+  background-color: #0033C7;
+}
+.huit
+{
+  background-color: #3000C7;
+}
+.seize
+{
+  background-color: #9300C7;
+}
+.trente-deux
+{
+  background-color: #C70097;
+}
+.soixante-quatre
+{
+  background-color: #C70033;
+}
+.cent-vingt-huit
+{
+  background-color: #C75700;
+}
+.deux-cent-cinquante-six
+{
+  background-color: #0033C7;
+}
+.cinq-cent-douze
+{
+  background-color: #C7BA00;
+}
+.mille-vingt-quatre
+{
+  background-color: #70C700;
+  font-size: 40px;
+}
+.deux-mille-quarante-huit
+{
+  background-color: #0CC700;
+  font-size: 40px;
+}
+
+.endOfGame{
+  margin-top: -400px;
+  margin-left: 50px;
+  width: 400px;
+  height: 160px;
+  text-align: center;
+  background-color: #e39729;
+  font-size: 50px;
+  padding-top: 80px;
+  position: absolute;
+  opacity: 0.9;
+  color:white;
+  z-index: 2;
+  font-weight: bold;
+
+}
